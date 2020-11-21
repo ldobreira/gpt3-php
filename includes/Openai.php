@@ -1,11 +1,9 @@
 <?php
 class Openai
 {
-   private function secretKey(){
-    return $secret_key = 'Bearer ******YOUR-KEY-HERE********';
-   }
-
    public function request($engine, $prompt, $max_tokens){ 
+
+    $secret_key = 'Bearer ******YOUR-KEY-HERE********';
 
     $request_body = [
     "prompt" => $prompt,
@@ -32,7 +30,7 @@ class Openai
     CURLOPT_POSTFIELDS => $postfields,
     CURLOPT_HTTPHEADER => [
         'Content-Type: application/json',
-        'Authorization: ' . $this->secretKey()
+        'Authorization: ' . $secret_key
     ],
     ]);
 
