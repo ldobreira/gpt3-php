@@ -15,3 +15,9 @@ $openai->request("ada", "This is a test", 5);
 
 ?>
 ```
+
+#Requirements
+All the examples require your OpenAI api token
+```
+$secret_key = 'Bearer ******YOUR-KEY-HERE********';
+```
