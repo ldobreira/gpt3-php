@@ -3,7 +3,7 @@ A simple and easy to use PHP wrapper for the OpenAI GPT-3 API.
 
 Example usage:
 
-```
+```php
 <?php
 
 require_once '../includes/Openai.php';
