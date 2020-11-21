@@ -1,2 +1,16 @@
-# OpenAI's GPT-3 - PHP Example!
-I notice that there's no official documentation or any information about using GPT-3 with PHP... So here's a quick and simple example. Let me know if this was helpful to you.
+# Easy OpenAI GPT-3 API Wrapper for PHP
+A simple and easy to use PHP wrapper for the OpenAI GPT-3 API.
+
+Example usage:
+
+```
+<?php
+
+require_once '../includes/Openai.php';
+
+$openai = New Openai();
+
+$openai->request("ada", "This is a test", 5);
+
+?>
+```
