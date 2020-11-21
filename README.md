@@ -10,6 +10,7 @@ require_once '../includes/Openai.php';
 
 $openai = New Openai();
 
+//Engine, prompt and max tokens
 $openai->request("ada", "This is a test", 5);
 
 ?>
