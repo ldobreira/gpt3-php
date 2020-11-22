@@ -26,5 +26,5 @@ $secret_key = 'Bearer ******YOUR-KEY-HERE********';
 
 ## License
 
-RAWG PHP SDK is released under the
+OpenAI GPT-3 API Library is released under the
 [MIT License](http://www.opensource.org/licenses/MIT).
