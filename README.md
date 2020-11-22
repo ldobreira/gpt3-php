@@ -23,3 +23,8 @@ All the examples require your OpenAI api token
 ```php
 $secret_key = 'Bearer ******YOUR-KEY-HERE********';
 ```
+
+## License
+
+RAWG PHP SDK is released under the
+[MIT License](http://www.opensource.org/licenses/MIT).
